@@ -1,0 +1,40 @@
+h2 {
+    text-align: center;
+    font-size: larger;
+}
+
+body {
+    background-color: beige;
+    font-family: sans-serif;
+    background: url("https://cdn.wallpapersafari.com/97/23/S26hfq.jpg")
+        center/cover no-repeat fixed;
+}
+.kotak_logout {
+    width: 350px;
+    background: white;
+    /*meletakkan form ke tengah*/
+    margin: 80px auto;
+    padding: 30px 20px;
+}
+
+.tombol_logout {
+    background: cadetblue;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+label {
+    font-size: medium;
+}
+
+.input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
