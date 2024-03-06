@@ -16,11 +16,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::get('/logout', function () {
+    return view('logout');
+});
 Route::get('/login', function () {
     return view('login');
 });
-
 Route::get('/registrasi', function () {
     return view('registrasi');
 });
+
+Route::get('/landingpage', function () {
+    return view('landingpage');
+});
+
