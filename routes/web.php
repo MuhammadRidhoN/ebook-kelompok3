@@ -25,3 +25,8 @@ Route::get('/login', function () {
 Route::get('/registrasi', function () {
     return view('registrasi');
 });
+
+Route::get('/landingpage', function () {
+    return view('landingpage');
+});
+
