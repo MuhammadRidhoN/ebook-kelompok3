@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Do Project</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>landingpage</title>
+    <link href="landpage.css" rel="stylesheet" />
 </head>
 
 <body>
