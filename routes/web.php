@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProfilController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,4 +30,6 @@ Route::get('/regis', function () {
 Route::get('/landingpage', function () {
     return view('landingpage');
 });
+
+Route::get('/profil', [ProfilController::class, 'index']);
 
